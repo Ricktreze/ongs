@@ -11,7 +11,7 @@ module.exports = {
         if(!ong){
             return response.status(404).json({error: "No ONF found with this ID"});
         }else{
-            return response.json(ong.name);
+            return response.json(ong);
         }
 
 
